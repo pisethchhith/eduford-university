@@ -100,6 +100,54 @@ nav ul li a:hover::after{
 }
 
 /* course */
+.course {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.course-header {
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.course-description {
+    font-weight: 200;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.course-wrapper-row {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-column {
+    box-sizing: border-box;
+    background-color: #fff3f3;
+    border-radius: 1em;
+    padding: 10px 24px;
+    flex-basis: 31%;
+    transition: 250ms;
+    cursor: pointer;
+}
+
+.course-column h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.course-column:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 28px;
+    transition: ease-in-out 250ms;
+}
+
+
+
 
 
 
