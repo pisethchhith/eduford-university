@@ -307,6 +307,11 @@ nav ul li a:hover::after{
     padding: 0 16px 0 0;
 }
 
+.rating {
+    padding: 0 0 0 16px;
+    color: #F5CE4F;
+}
+
 
 
 
