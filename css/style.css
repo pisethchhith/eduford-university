@@ -146,6 +146,70 @@ nav ul li a:hover::after{
     transition: ease-in-out 250ms;
 }
 
+/* campus section */
+
+.campus {
+    width: 80%;
+    padding-top: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.campus-wrapper-row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.campus-column {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.campus-column img {
+    width: 100%;
+    display: block;
+}
+
+/* Image overlay hover effect */
+
+.overlay {
+    background: #f44336;
+    position:absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 250ms ;
+    opacity: 0;
+}
+
+.overlay:hover{
+    opacity: 0.9;
+    transition: ease-in-out 250ms;
+}
+
+.overlay .text {
+    color: #eee;
+    font-weight: 400;
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+
+
+
+
 
 
 
