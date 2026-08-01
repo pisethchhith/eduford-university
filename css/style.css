@@ -130,7 +130,7 @@ nav ul li a:hover::after{
     box-sizing: border-box;
     background-color: #fff3f3;
     border-radius: 1em;
-    padding: 10px 24px;
+    padding: 10px 36px;
     flex-basis: 31%;
     transition: 250ms;
     cursor: pointer;
