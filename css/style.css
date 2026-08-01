@@ -13,7 +13,7 @@ body {
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(#1b244999,#1b244999), url(/img/banner.png);
+    background-image: linear-gradient(#1b244999,#1b244999), url(/img/banner.webp);
     background-position: center;
     background-size: cover;
 }
@@ -324,7 +324,7 @@ nav ul li a:hover::after{
     margin: 100px auto;
     text-align: center;
     width: 80%;
-    background-image: linear-gradient(#1b244999,#1b244999), url(/img/banner2.jpg);
+    background-image: linear-gradient(#1b244999,#1b244999), url(/img/banner2.webp);
     background-position: center;
     background-size: cover;
     padding: 40px 0;
