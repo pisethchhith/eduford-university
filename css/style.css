@@ -300,7 +300,7 @@ nav ul li a:hover::after{
 .reviews-column p {
     box-sizing: border-box;
     margin: 0 16px;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .user-review{
@@ -317,7 +317,7 @@ nav ul li a:hover::after{
 }
 
 .user-review .occupation {
-    font-weight: 100;
+    font-weight: 200;
     font-size: 12px;
 }
 
@@ -374,7 +374,8 @@ nav ul li a:hover::after{
 .footer h2 {
     color: #eee;
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 300;
+    margin: 0.5em 0;
 }
 
 .footer .social-icons {
