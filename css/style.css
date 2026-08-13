@@ -512,6 +512,25 @@ nav ul li a:hover::after{
     gap: 3em;
 }
 
+.blog-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-content article {
+    max-width: 80%;
+    margin: auto;
+    text-align: left;
+    font-size: 1.15rem;
+    padding: 0 0 4em;
+    
+}
+
+.blog-content .blog-pic {
+    max-width: 50%;
+    margin: auto;
+    padding: 5em;
+}
 
 
 
